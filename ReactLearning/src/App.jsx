@@ -4,15 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-// Here we use for Js code
-
+  const names = ["ALI", "AHMED", "MOHAMED"];
 
   return (
-//Here we use Html code
     <div>
-      omer
+      Girginer
     </div>
   )
 }
 
-export default App
+export default App;
