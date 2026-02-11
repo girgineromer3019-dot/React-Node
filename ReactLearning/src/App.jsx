@@ -4,8 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+// Here we use for Js code
+
 
   return (
+//Here we use Html code
     <div>
       omer
     </div>
