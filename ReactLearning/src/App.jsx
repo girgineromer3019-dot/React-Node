@@ -5,12 +5,9 @@ import './App.css'
 import Login from './Login'
 
 function App() {
-<<<<<<< HEAD
-  //Here we can write JavaScript code
-=======
-  
 
->>>>>>> 0a7f81b259da4c2eb66a676689750b34c5b543a7
+  //Here we can write JavaScript code
+  
   return (
   //Here we write Html code
   
