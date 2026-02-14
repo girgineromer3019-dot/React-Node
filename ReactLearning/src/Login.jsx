@@ -8,13 +8,13 @@ function Login() {
         <p>User name</p>
         <input type="text" />
     </div>
+
     <div>
         <p>Password</p>
         <input type="password" />   
     </div>
-    
+    <br />
     <button>Login</button>
-
     </>  
   )
 }
