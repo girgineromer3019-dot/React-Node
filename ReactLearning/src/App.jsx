@@ -1,20 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Login from './Login'
+import React from "react";
+import './App.css';
+import Product from './Product';
 
 function App() {
-
-  //Here we can write JavaScript code
-  
   return (
-  //Here we write Html code
-  
     <div>
-      <Login />
+      <Product name="T-shirt" price={20} />
+      <Product name="Jeans" price={40} />
+      <Product name="Sneakers" price={60} />
     </div>
-  )
+  );
 }
 
 export default App;
