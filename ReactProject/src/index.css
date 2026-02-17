@@ -1,0 +1,32 @@
+/* Global stiller */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 57px; /* sabit header için */
+  background-color: #fffbe6;
+}
+
+/* Mouse ışığı efekti */
+.light {
+  position: fixed;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,87,51,1) 0%, rgba(255,87,51,0.6) 40%, rgba(255,87,51,0.4) 70%, transparent 100%);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: fadeOut 0.3s linear forwards;
+  mix-blend-mode: normal;
+  z-index: 9999;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(2); }
+}
+
+/* Responsive genel ayarlar */
+@media (max-width: 895px) {
+  body { padding-top: 100px; }
+}
