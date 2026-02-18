@@ -4,9 +4,9 @@ import './About.css';
 function About() {
   return (
     <section id="about">
-      <h2><i className="fa-solid fa-address-card"></i> About</h2>
+      <h2 className="Title">About</h2>
       
-      <p className="Titel">Wie ben ik?</p>
+      <p className="KleineTitle">Wie ben ik?</p>
       <p className="Paragraf">
         Ik ben geboren in Turkije en heb daar 22 jaar gewoond. Mijn middelbare schooltijd begon op een
       militaire school, waarna ik verschillende openbare scholen heb gevolgd.
@@ -15,7 +15,7 @@ function About() {
       In 2022 kwam ik naar Nederland en volgde ik drie jaar lang taalcursussen. In 2025 begon ik opnieuw met een
       opleiding softwareontwikkeling aan het Deltion College.
 
-      <p className="Titel">Wat is mijn hobby?</p>
+      <p className="KleineTitle">Wat is mijn hobby?</p>
       <ul>
         <li>Voetbal</li>
         <li>Zwemmen</li>
@@ -34,7 +34,7 @@ function About() {
       bij het dorpsteam van Ruinerwold.
       </p>
       </p>
-    <p className="Titel">Mijn vaardigheden</p>
+    <p className="KleineTitle">Mijn vaardigheden</p>
     <ul>
       <li>HTML & CSS</li>
       <li>JavaScript</li>

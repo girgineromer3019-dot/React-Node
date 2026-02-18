@@ -1,40 +1,6 @@
 #projects {
-  padding: 60px 30px;
-  text-align: center;
-}
-
-.button-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15%;
-  margin-top: 20px;
-}
-
-.button-container button {
   padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 15px;
-  border: none;
-  background-color: #00bfa5;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  text-align: left;
+  color: #333;
 }
 
-.button-container button:hover {
-  background-color: #00796b;
-}
-
-@media (max-width: 895px) {
-  .button-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .button-container button {
-    width: 80%;
-    font-size: 18px;
-  }
-}
